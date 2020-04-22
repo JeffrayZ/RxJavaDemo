@@ -13,4 +13,22 @@ package com.example.rxjava;
  * @Version: 1.0
  */
 public class MobileAddress {
+    private Long error_code;
+    private String reason;
+
+    public Long getError_code() {
+        return error_code;
+    }
+
+    public void setError_code(Long error_code) {
+        this.error_code = error_code;
+    }
+
+    public String getReason() {
+        return reason;
+    }
+
+    public void setReason(String reason) {
+        this.reason = reason;
+    }
 }
